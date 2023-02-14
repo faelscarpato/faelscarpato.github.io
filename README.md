@@ -32,7 +32,7 @@ Se você quiser contribuir com o projeto, sinta-se à vontade para criar um fork
 # Autoria e créditos
 Este projeto foi criado por **Rafael Scarpato**. As imagens utilizadas no site foram obtidas de:
 
->###Icones
+**Icones**
 - Font Awesome - https://fontawesome.com/
 - FlatIcon - https://www.flaticon.com/br/
 
