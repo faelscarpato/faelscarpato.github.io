@@ -1,21 +1,4 @@
-.WQwKa {
-    position: fixed;
-    width: 100%;
-    margin: 0 auto;
-    -webkit-align-items: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    padding-left: 12px;
-    padding-right: 24px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    margin-top: 8px;
-    margin-bottom: 8px;
-    z-index: 10;
-    top: 0;
-    left: 0;
-}
+
 
 /*!sc*/
 @media screen and (min-width:576px) {
@@ -83,7 +66,7 @@
 
 @media screen and (min-width:576px) {
     .ewSEqQ {
-        padding-bottom: 64px;
+        padding-bottom: 6px;
     }
 }
 
@@ -130,21 +113,21 @@
 /*!sc*/
 
 .eZNKTD {
-    margin-bottom: 16px;
+    margin-bottom: 10px;
 }
 
 /*!sc*/
 
 .llgrqs {
-    margin-left: 12px;
-    margin-right: 12px;
+    margin-left: 15px;
+    margin-right: 15px;
     max-width: 100%;
 }
 
 /*!sc*/
 
 .jrDHLp {
-    margin-top: 32px;
+    margin-top: 10px;
 }
 
 /*!sc*/
@@ -169,7 +152,7 @@
     left: 4px;
     width: 46px;
     height: 46px;
-    border-radius: 12px;
+    border-radius: 0px;
     width: 48px;
     height: 48px;
 }
@@ -319,31 +302,8 @@ data-styled.g4[id="sc-hKgILt"] {
     border: #696969 5px solid;
 }
 
-/*!sc*/
 
-data-styled.g8[id="sc-iBPRYJ"] {
-    content: "ckHcDD,flTywP,"
-}
 
-/*!sc*/
-
-.fRlsIx {
-    padding: 0;
-    margin: 0;
-    border: none;
-    font-family: inherit;
-    font-weight: inherit;
-    font-size: inherit;
-    text-align: center;
-    cursor: pointer;
-    display: block;
-    background: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    box-sizing: border-box;
-    background-color: blue;
-}
 
 /*!sc*/
 .fRlsIx:focus {
@@ -610,7 +570,7 @@ data-styled.g18[id="sc-kstrdz"] {
 
 /*!sc*/
 
-.fhcemD {
+.instagram {
     overflow: hidden;
     position: absolute;
     top: 50%;
@@ -638,22 +598,9 @@ data-styled.g18[id="sc-kstrdz"] {
     height: 40px;
 }
 
-.fhcemD:hover{
-    background-color: black;
-     -webkit-mask-image: url(img/instagram.svg);
-    -webkit-mask-size: 100%;
-    mask-size: 100%;
-    width: 32px;
-    height: 32px;
-    left: 8px;
-    border-radius: 0;
-    width: 40px;
-    height: 40px;
-}
-
 /*!sc*/
 
-.gWAQiZ {
+.behance {
     overflow: hidden;
     position: absolute;
     top: 50%;
@@ -681,21 +628,10 @@ data-styled.g18[id="sc-kstrdz"] {
     height: 40px;
 }
 
-.gWAQiZ:hover {
-  background-color: black;
-     -webkit-mask-image: url(img/behance.svg);
-    -webkit-mask-size: 100%;
-    mask-size: 100%;
-    width: 32px;
-    height: 32px;
-    left: 8px;
-    border-radius: 0;
-    width: 40px;
-    height: 40px;
-}
+
 /*!sc*/
 
-.iDxjj {
+.site {
     overflow: hidden;
     position: absolute;
     top: 50%;
@@ -723,21 +659,9 @@ data-styled.g18[id="sc-kstrdz"] {
     height: 40px;
 }
 
-.gWAQiZ:hover {
-  background-color: black;
-     -webkit-mask-image: url(img/site.png);
-    -webkit-mask-size: 100%;
-    mask-size: 100%;
-    width: 32px;
-    height: 32px;
-    left: 8px;
-    border-radius: 0;
-    width: 40px;
-    height: 40px;
-}
 /*!sc*/
 
-.ZrfEZ {
+.spotfy {
     overflow: hidden;
     position: absolute;
     top: 50%;
@@ -765,7 +689,7 @@ data-styled.g18[id="sc-kstrdz"] {
     height: 40px;
 }
 
-.VmAk {
+.linkdin {
     overflow: hidden;
     position: absolute;
     top: 50%;
@@ -783,6 +707,34 @@ data-styled.g18[id="sc-kstrdz"] {
     align-items: center;
     background-color: rgb(245, 245, 245);
     -webkit-mask-image: url(img/link1.png);
+    -webkit-mask-size: 100%;
+    mask-size: 100%;
+    width: 30px;
+    height: 30px;
+    left: 8px;
+    border-radius: 0;
+    width: 40px;
+    height: 40px;
+}
+
+.project {
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    pointer-events: none;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: rgb(245, 245, 245);
+    -webkit-mask-image: url(img/projetos.png);
     -webkit-mask-size: 100%;
     mask-size: 100%;
     width: 30px;
@@ -1306,10 +1258,6 @@ data-styled.g84[id="sc-jUEnpm"] {
 
 /*!sc*/
 
-.kHEClt {
-    min-height: 100vh;
-    min-height: 100lvh;
-}
 
 /*!sc*/
 
@@ -1346,7 +1294,7 @@ data-styled.g86[id="sc-fvhGYg"] {
     object-fit: cover;
     object-position: initial;
     padding-bottom: 20px;
-    padding-top: 10px;
+    padding-top: 20px;
     border-top: 10px #fff solid;
 }
 
