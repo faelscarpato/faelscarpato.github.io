@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerar Qr Code</title>
+    <link rel="stylesheet" href="styleqr.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <main>
+
+        <div class="container">
+
+            <h3 class="titulo">Gere Seu Qr Code</h3><br>
+            <p>Insira o Texto que deseja gerar o código. Ex(Celular, Rede Social, Link...)</p><br>
+            
+            <div>
+                <input type="text" id="text" placeholder="Insira Seu Texto / Telefone / Link..." class="input">
+                <button type="button" onclick="generateQR()">
+                    Gerar QRCode
+                </button>
+
+                <div id="qr-image">
+                    <span class="error"></span><br />
+                    <img src="" id="img">
+                </div>
+            </div>
+            <p>Clique sobre ele e segure para fazer o download. </p>
+        </div>
+    </main>
+    
+
+    <footer>
+        <div class="card">
+        <p> Desenvolvido Por <a href="http://scarpato.cf" target="_blank" class="nome">Rafael Scarpato</a> </p></div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
