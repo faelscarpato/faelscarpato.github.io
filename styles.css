@@ -495,8 +495,11 @@ section {
 body {
     line-height: 1;
     background-image: url(img/fundocol3.png);
-    background-size: contain;
-    background-color: #34343484;
+    background-position: center;
+    background-size: cover;
+
+
+
 }
 
 /*!sc*/
