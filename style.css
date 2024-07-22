@@ -1,0 +1,120 @@
+body {
+ font-family: sans-serif;
+ background-color: #34204D;
+ /* Cor de fundo neutra */
+ color: #fff;
+ /* Cor do texto */
+ display: flex;
+ flex-direction: column;
+ min-height: 100vh;
+ margin: auto;
+}
+
+.container {
+ display: flex;
+ flex-direction: column;
+ /* Mobile: tudo em coluna */
+ align-items: center;
+ text-align: center;
+ padding: 20px;
+ flex: 1;
+ /* Para o conteúdo ocupar o espaço disponível */
+}
+
+/* Estilos para desktop */
+@media (min-width: 768px) {
+ .container {
+  color: #FFA90B;
+  padding: 15px 20px;
+  text-decoration: none;
+  border-radius: 50px;
+  margin: 50% 10% 50% 10%;
+  box-shadow: 0px 9px 40px rgba(180, 10, 255, 0);
+  /* Sombra */
+  backdrop-filter: blur(20px);
+  /* Efeito de desfoque */
+  width: 700px;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.3);
+  flex-direction: row;
+  /* Desktop: perfil à esquerda, links à direita */
+  justify-content: space-around;
+ }
+
+ .profile {
+  margin-right: 50px;
+ }
+
+ .profile img {
+  width: 200px;
+  /* Aumenta o tamanho da foto no desktop */
+ }
+}
+
+.profile img {
+ width: 150px;
+ /* Tamanho da foto */
+ height: 150px;
+ border-radius: 50%;
+ object-fit: cover;
+ margin-bottom: 10px;
+ border: 3px solid #FFA90B;
+}
+
+.social-icons a {
+ margin: 0 10px;
+ color: #FFA90B;
+ font-size: 24px;
+ margin-bottom: 20px;
+ padding: 2px;
+}
+
+.links a {
+ display: block;
+ background-color: rgba(255, 255, 200, 0);
+ /* Botões transparentes */
+ color: #FFA90B;
+ padding: 15px 20px;
+ text-decoration: none;
+ border-radius: 10px;
+
+ margin-top: 20px;
+ margin-bottom: 10px;
+ box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.3);
+ /* Sombra */
+ backdrop-filter: blur(3px);
+ /* Efeito de desfoque */
+ font-weight: 600;
+}
+
+footer {
+ background-color: #FFA90B;
+ color: #34204D;
+ text-align: center;
+ padding: 10px 0;
+}
+
+
+/* ... (outros estilos) ... */
+
+.links a.link-button {
+ display: flexbox;
+ /* Usamos flexbox para alinhar */
+ align-items: center;
+ width: 250px;
+ text-align: center;
+ padding: 15px;
+}
+
+.links a.link-button i {
+ margin-right: 10px;
+ font-size: 20px;
+ adjust-content: last;
+}
+
+/* ... (outros estilos) ... */
+canvas {
+ position: fixed;
+ width: 100%;
+ height: 100%;
+}
