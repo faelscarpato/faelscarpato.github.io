@@ -33,7 +33,7 @@ body {
   /* Sombra */
   backdrop-filter: blur(20px);
   /* Efeito de desfoque */
-  width: 700px;
+  width: 80%;
   height: auto;
   background-color: rgba(0, 0, 0, 0.3);
   flex-direction: row;
@@ -93,7 +93,6 @@ footer {
  text-align: center;
  padding: 10px 0;
 }
-
 
 /* ... (outros estilos) ... */
 
